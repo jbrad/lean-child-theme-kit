@@ -7,7 +7,7 @@ module.exports = function(grunt) {
             child_theme: {
                 options: {
                     paths: ["css/less"],
-                    yuicompress: true
+                    yuicompress: false
                 },
                 files: {
                     "style.css": "css/less/style.less"
