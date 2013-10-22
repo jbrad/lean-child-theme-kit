@@ -101,6 +101,9 @@ Template: lean
 .navbar .icon-github:hover {
   color: #6f6f6f;
 }
+.navbar .icon-envelope {
+  font-size: 14px;
+}
 */
 /* Customizations
 ---------------------------------------------------------------------------------- */
