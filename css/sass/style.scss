@@ -12,49 +12,45 @@ Template: lean
 */
 
 
-/* Import Lean Styles
----------------------------------------------------------------------------------- */
+// Import Lean Styles
 
 @import url( '../lean/style.css' );
 
-/* Uncomment the line below to enable child theme right-to-left language support. */
-/* @import url( '../lean/rtl.css' ); */
+// Uncomment the line below to enable child theme right-to-left language support.
+// @import url( '../lean/rtl.css' );
 
-/* Uncomment the lines below to add color to your social icons. */
+// Uncomment the lines below to add color to your social icons.
 // Uncomment the line below to add color to your social icons.
-// @import 'social.less';
+@import 'social';
 
 
-/* Customizations
----------------------------------------------------------------------------------- */
+// Customizations
 
 
+// Media Queries
 
-/* Media Queries
----------------------------------------------------------------------------------- */
-
-/* Smartphones */
+// Smartphones
 @media (max-width: 480px) {
 
 }
 
-/* Tablet & Mobile */
+// Tablet & Mobile
 @media (max-width: 979px) {
 
 }
 
-/* Mobile to Tablet */
+// Mobile to Tablet
 @media only screen and (max-width: 767px) {
 
 }
 
 
-/* Landscape Tablets */
+// Landscape Tablets
 @media (min-width: 768px) and (max-width: 979px) {
 
 }
 
-/* Desktop */
+// Desktop
 @media (min-width: 980px) {
 
 }

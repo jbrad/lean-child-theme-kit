@@ -3,31 +3,30 @@ module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
-        less: {
-            child_theme: {
+        sass: {
+            dist: {
                 options: {
-                    paths: ["css/less"],
-                    yuicompress: false
+                    style: 'compressed'
                 },
                 files: {
-                    "style.css": "css/less/style.less"
+                    'style.css': 'css/sass/style.scss'
                 }
             }
         },
 
         watch: {
-            child_theme_less: {
+            child_theme_sass: {
                 files: [
-                    'css/less/*.less'
+                    'css/sass/*.scss'
                 ],
-                tasks: ['less']
+                tasks: ['sass']
             }
         }
 
     });
 
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-contrib-sass');
 
     grunt.registerTask('default', ['watch']);
 

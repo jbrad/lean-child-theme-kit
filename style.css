@@ -1,4 +1,4 @@
-@import url('../lean/style.css');/*!
+/*!
 Theme Name: Lean Child Theme Kit
 Theme URI: https://github.com/jbrad/lean-child-theme-kit
 Version: 1.2
@@ -9,4 +9,4 @@ Author Email: jason.bradley@me.com
 License: GNU General Public License v3.0 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Template: lean
-*/
+*/@import url("../lean/style.css");.navbar .fa-twitter{font-size:14px;color:#1dadeb}.navbar .fa-twitter:hover{color:#4cbeef}.navbar .fa-facebook{font-size:14px;color:#637eb2}.navbar .fa-facebook:hover{color:#859ac3}.navbar .fa-linkedin{font-size:14px;color:#479bc8}.navbar .fa-linkedin:hover{color:#6eb0d4}.navbar .fa-google-plus{font-size:14px;color:#d34428}.navbar .fa-google-plus:hover{color:#de6750}.navbar .fa-youtube{font-size:14px;color:#d64242}.navbar .fa-youtube:hover{color:#df6c6c}.navbar .fa-dribbble{font-size:14px;color:#d24079}.navbar .fa-dribbble:hover{color:#dc6996}.navbar .fa-foursquare{font-size:14px;color:#aad25c}.navbar .fa-foursquare:hover{color:#bfdd84}.navbar .fa-pinterest{font-size:14px;color:#c41e26}.navbar .fa-pinterest:hover{color:#e0353d}.navbar .fa-rss{font-size:14px;color:#fd9526}.navbar .fa-rss:hover{color:#fdae59}.navbar .fa-cloud{font-size:14px;color:#f8491d}.navbar .fa-cloud:hover{color:#fa714e}.navbar .fa-vimeo-square{font-size:14px;color:#1280a9}.navbar .fa-vimeo-square:hover{color:#17a3d7}.navbar .fa-github{font-size:14px;color:#555}.navbar .fa-github:hover{color:#6e6e6e}.navbar .fa-envelope{font-size:14px}
